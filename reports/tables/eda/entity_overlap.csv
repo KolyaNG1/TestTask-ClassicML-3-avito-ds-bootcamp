@@ -1,0 +1,6 @@
+column,train_unique,test_unique,shared_unique,test_unique_seen_share
+item_id,46953,30902,24926,0.8066144586110932
+item_category,15,15,15,1.0
+item_location,40,40,40,1.0
+search_query,120,120,120,1.0
+user_agent,148,148,148,1.0

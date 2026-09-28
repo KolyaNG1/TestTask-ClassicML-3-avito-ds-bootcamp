@@ -1,0 +1,7 @@
+{
+  "precision_at_recall_70": 0.8461538461538461,
+  "average_precision": 0.8030875132588366,
+  "roc_auc": 0.9442305871959108,
+  "recall_at_fpr_01": 0.6991869918699187,
+  "unique_scores": 1669
+}

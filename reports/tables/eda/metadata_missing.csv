@@ -1,0 +1,6 @@
+column,train,test
+cookie_created_at,0.0,0.0
+cookie_id,0.0,0.0
+target,0.0,
+window_end_ts,0.0,0.0
+window_start_ts,0.0,0.0

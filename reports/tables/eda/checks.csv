@@ -1,0 +1,8 @@
+check,passed
+train_cookie_id_unique,True
+test_cookie_id_unique,True
+train_test_cookie_id_disjoint,True
+test_starts_after_train,True
+events_inside_windows,True
+captcha_removed,True
+every_cookie_has_events,True

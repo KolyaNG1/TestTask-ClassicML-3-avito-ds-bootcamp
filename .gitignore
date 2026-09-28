@@ -1,0 +1,19 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Тяжёлые промежуточные таблицы и модели пересчитываются ноутбуками.
+artifacts/**
+!artifacts/feature_selection/
+!artifacts/feature_selection/compact_behavior_columns.json
+!artifacts/feature_selection/compact_behavior_selection.csv
+!artifacts/experiments/
+artifacts/experiments/**
+!artifacts/experiments/catboost_behavior_with_item_history/
+!artifacts/experiments/catboost_behavior_with_item_history/**
+
+# В репозитории хранится только финальный отправленный результат.
+submissions/**
+!submissions/item_history/
+!submissions/item_history/20260928_164138/
+!submissions/item_history/20260928_164138/**

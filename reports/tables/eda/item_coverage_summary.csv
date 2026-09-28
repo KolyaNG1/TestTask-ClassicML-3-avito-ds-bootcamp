@@ -1,0 +1,4 @@
+check,value
+test_cookies_with_known_item_share,0.9716846608270524
+mean_known_item_share,0.807235040745898
+test_cookies_without_item_events,65.0

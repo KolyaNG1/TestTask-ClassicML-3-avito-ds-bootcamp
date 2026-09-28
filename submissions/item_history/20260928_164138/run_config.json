@@ -1,0 +1,58 @@
+{
+  "experiment": {
+    "name": "final_behavior_with_item_history",
+    "feature_set": "behavior_with_item_history",
+    "model_name": "catboost",
+    "model_params": {
+      "iterations": 1200,
+      "depth": 3,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 3,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "random_seed": 42,
+      "thread_count": -1,
+      "verbose": 100,
+      "allow_writing_files": false
+    },
+    "fold_names": [],
+    "use_frequency_features": true,
+    "frequency_feature_style": "prefix",
+    "history_entities": [
+      "item"
+    ],
+    "history_alpha": 25.0,
+    "recency_half_life_days": 5.0,
+    "expected_feature_count": 719,
+    "feature_version": "compact_behavior_v1_with_local_blocks_v1",
+    "compute_mode": "cpu",
+    "random_seed": 42
+  },
+  "model_params": {
+    "iterations": 1200,
+    "depth": 3,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "random_seed": 42,
+    "thread_count": -1,
+    "verbose": 100,
+    "allow_writing_files": false
+  },
+  "used_gpu": false,
+  "train_rows": 11091,
+  "test_rows": 4909,
+  "feature_count": 719,
+  "checks": {
+    "columns": true,
+    "row_count": true,
+    "unique_cookie_id": true,
+    "same_cookie_id": true,
+    "sample_order": true,
+    "numeric_score": true,
+    "no_missing": true,
+    "finite_score": true,
+    "score_range": true
+  }
+}

@@ -1,0 +1,4 @@
+table,rows,columns
+train,11091,5
+test,4909,4
+events_in_window,288126,18

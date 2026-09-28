@@ -1,0 +1,12 @@
+numpy==2.3.4
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.16.3
+catboost==1.2.10
+joblib==1.5.3
+matplotlib==3.10.7
+seaborn==0.13.2
+nbformat==5.10.4
+ipykernel==7.1.0
+tqdm==4.67.1
+pytest==8.4.2

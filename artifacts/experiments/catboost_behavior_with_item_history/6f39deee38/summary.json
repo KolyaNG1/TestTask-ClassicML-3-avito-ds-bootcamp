@@ -1,0 +1,15 @@
+{
+  "experiment": "catboost_behavior_with_item_history",
+  "feature_set": "behavior_with_item_history",
+  "model": "catboost",
+  "feature_count": 719,
+  "total_fit_seconds": 174.06534700025804,
+  "mean_precision_at_recall_70": 0.8686636746338238,
+  "std_precision_at_recall_70": 0.02864778700583251,
+  "last_fold_precision_at_recall_70": 0.8507462686567164,
+  "mean_average_precision": 0.8088962801026801,
+  "mean_roc_auc": 0.9445493858760364,
+  "pooled_precision_at_recall_70": 0.8558823529411764,
+  "pooled_average_precision": 0.8050918510420346,
+  "pooled_roc_auc": 0.9443287624328082
+}

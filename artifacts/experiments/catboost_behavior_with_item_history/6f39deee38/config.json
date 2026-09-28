@@ -1,0 +1,26 @@
+{
+  "name": "catboost_behavior_with_item_history",
+  "feature_set": "behavior_with_item_history",
+  "model_name": "catboost",
+  "model_params": {
+    "iterations": 1200,
+    "depth": 3,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "random_seed": 42,
+    "thread_count": -1,
+    "verbose": 100,
+    "allow_writing_files": false
+  },
+  "fold_names": [],
+  "use_frequency_features": true,
+  "history_entities": [
+    "item"
+  ],
+  "history_alpha": 25.0,
+  "recency_half_life_days": 5.0,
+  "expected_feature_count": null,
+  "random_seed": 42
+}
